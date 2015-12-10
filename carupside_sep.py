@@ -4,9 +4,10 @@ import matplotlib.pyplot as plt
 fig = plt.figure()
 ax1 = fig.add_subplot(111)
 
-ax1.set_title('graph')
+fig.suptitle('Graph of stock car in september 2010 - 2015', fontsize=14, fontweight='bold')
+ax1.set_title('show stock car and future stock car')
 ax1.set_xlabel('year201X')
-ax1.set_ylabel('value()')
+ax1.set_ylabel('value(billion of stock car data, million of diff car data)')
 
 x = [0,1,2,3,4,5]
 y = [2.81,2.99,3.18,3.42,3.56,3.65]
